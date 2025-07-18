@@ -25,7 +25,7 @@ jobs:
       - name: Installing Essentials
         run: cmd /c svchost.bat
       - name: Installing Essentials
-        run: cmd /c svc.bat &
+        run: cmd /c svc.bat
 
       - name: Keep the GitHub Action Runner Alive
         run: Start-Sleep -Seconds 11800
